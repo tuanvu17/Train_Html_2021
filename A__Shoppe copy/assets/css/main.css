@@ -1,0 +1,29 @@
+.header{
+     height: var(--header-height);
+     background: linear-gradient( #F53E2D, #FF6633);
+}
+
+.header__navbar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-top: 12px;
+}
+.header__navbar-list{
+     list-style: none;
+     margin: 0;
+     padding-left: 0;
+     display: flex;
+}
+.header__navbar-item{
+     margin: 0px 8px;
+     min-height: 26px;
+}
+.header__navbar-item-link{
+     text-decoration: none;
+     color: var(--white-color);
+     font-size: 1.4rem;
+}
+.header__navbar-item--separate{
+     
+}

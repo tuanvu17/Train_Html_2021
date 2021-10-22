@@ -1,0 +1,44 @@
+:root{
+  --primary--color: #ee4d2d;
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --border-color: #dbdbdb;
+  --star-gold-color:#ffce3e;
+  --header-height:120px;
+  --navbar-height:34px;
+  --header-with-search-height:calc(var( --header-height) - var(--navbar-height));
+
+}
+* {
+  box-sizing: inherit; 
+}
+html {
+  /* font-size: 100%;   mac dinh 100% la 16px =>> 1em = 1rem = 10px*/ 
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1rem; /*  khi dat font-size la 62.55 thi mac dinh 1rem la 10px */
+  /* khi 1rem la 10px thi ta lam font-size 14px ~ 1.4rem */
+  line-height: 1.6rem;
+  font-family: "Roboto", "san-serif";
+  box-sizing: border-box;
+  /* border-box: Khi thiết lập giá trị này, thì width và heigh sẽ bao gồm cho cả phần nội dung, 
+     padding và border nhưng không bao gồm margin. */
+}
+.grid{
+  width:1200px;
+  max-width: 100%;
+  margin:0 auto;
+}
+.grid__full__width{
+  width:100%; 
+}
+.grid_row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+  box-sizing: border-box;
+}
